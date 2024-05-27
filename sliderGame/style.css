@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding:0;
+    /* box-sizing:border-box; */
+}
+#logo{
+    width:50rem;
+}
+body{
+    background-image: url(Images/dbg.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.board{
+    height:570px;
+    width:570px;
+    background-color:  rgb(246, 202, 209);
+    display: flex;
+    flex-wrap: wrap;
+    border:8px solid rgb(244, 101, 165); 
+}
+h1{
+    color: rgb(251, 4, 115);
+    font-size:3rem;
+}
+.container{
+    margin:10px auto;
+    margin-top:80px;
+    display:flex;
+    align-items: center;
+    justify-content: start;
+    gap:2rem;
+}
+#inContainer{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: start;
+    gap:0rem;
+}
+.board_card{
+    height:188px;
+    width:188px;
+    border:1px solid rgb(240, 151, 166);
+}
+h2{
+    font-size:2rem;
+    margin-top:1rem;
+    color: blue;
+    display:none;
+}
+.homePage{
+    display:block;
+    width:150px;
+    color:black;
+    text-align: center;
+    margin:30px auto;
+    background-color:#98e8fb;
+    padding:5px 10px;
+    font-size:1.5rem;
+    border:4px solid dodgerblue;
+    border-radius:20px;
+    text-decoration: none;
+}
+.homePage:hover{
+    background-color: rgb(142, 234, 142);
+}
+#scoreBox{
+    visibility: hidden;
+    display: flex;
+    position: absolute;
+    top:105px;
+    left:10px;
+    height:7vh;
+    width:15vw;
+    background-color: white;
+    border-radius: 1rem;
+    z-index:6;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    background-color: #98e8fb;
+    font-weight: 800;
+}
+.score{
+    background-color: white;
+    padding:4px 13px;
+    margin:0 10px;
+    display:inline;
+    border-radius: 10px;
+}
+#icon{
+    width:90px;
+    position:absolute;
+    top:11px;
+    left:20px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+#icon:hover{
+    transform: scale(0.9);
+}

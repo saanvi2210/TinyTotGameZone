@@ -1,0 +1,138 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    text-align:center;
+}
+body{
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+
+}
+h1{
+    background-color: rgb(8, 13, 81);
+    color: rgb(255, 255, 255);
+    text-align:center;
+    padding: 20px;
+    font-size:2.8rem;
+    line-height:3.9rem ;
+}
+.choices{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    gap:3rem;
+    margin: 28px 10px;
+    margin-top:50px;
+}
+.symbols:hover{
+    border:8px solid rgb(11, 122, 35);
+    cursor:pointer;
+}
+.choice{
+    width:250px;
+    height:250px;
+    
+}
+.symbols{
+    width:200px;
+    height:200px;
+    object-fit: cover;
+    border-radius: 150px;
+    border:8px solid rgb(8, 13, 81);
+}
+.score-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:10rem;
+    margin:30px 10px;
+    margin-top:10px;
+}
+p{
+    font-size:3rem;
+    font-weight: bold;
+}
+
+#msg{
+    background-color:rgb(8, 13, 81) ;
+    color: white;
+    font-size:3rem;
+    border:none;
+    border-radius:20px;
+    padding:15px 40px;
+    margin-bottom:30px;
+}
+#play_again:hover{
+    cursor: pointer;
+    opacity: 0.9;
+}
+#play_again{
+    display:none;
+    color: white;
+    padding:10px 30px;
+    border-radius: 20px;
+    font-size: 2rem;
+}
+.homePage{
+    display:block;
+    width:150px;
+    color:black;
+    text-align: center;
+    margin:15px auto;
+    background-color:#98e8fb;
+    padding:5px 10px;
+    font-size:1.5rem;
+    border:none;
+    border-radius:20px;
+    text-decoration: none;
+}
+.homePage:hover{
+    background-color: rgb(142, 234, 142);
+}
+#scoreBox{
+    visibility: hidden;
+    display: flex;
+    position: fixed;
+    top:105px;
+    right:20px;
+    height:10vh;
+    width:15vw;
+    background-color: white;
+    border-radius: 1rem;
+    z-index:6;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    background-color: #98e8fb;
+    font-weight: bold;
+}
+.scores{
+    background-color: white;
+    padding:5px 8px;
+    margin:0 10px;
+    display:inline;
+    border-radius: 10px;
+}
+.text{
+    font-size: 1.5rem;
+    padding-left:8px;
+}
+#icon{
+    width:90px;
+    position:absolute;
+    top:11px;
+    right:20px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+#icon:hover{
+    transform: scale(0.9);
+}
+.choice{
+    width:200px;
+    height:200px;
+    border:none;
+    border-radius: 150px;
+}
+    
